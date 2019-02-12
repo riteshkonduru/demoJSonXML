@@ -3,7 +3,7 @@ package com.example.demoJSonXML.hello;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 public final class ClassAccesses {
-    @JacksonXmlProperty(localName = "apexClass", isAttribute = true)
+    @JacksonXmlProperty(localName = "apexClass")
     public String apexClass;
     @JacksonXmlProperty(localName = "enabled")
     public String enabled;
